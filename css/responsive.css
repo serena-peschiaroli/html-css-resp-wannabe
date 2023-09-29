@@ -3,7 +3,7 @@
 
 /* container for mobile / tablet  */
 
-@media screen and (max-width: 480px) and (max-width: 780px){
+@media screen and (max-width: 480px) and (max-width: 780px) {
 
     .container {
         width: 100%;
@@ -31,7 +31,7 @@
 
  /* row for tablet  */
 
- @media screen and (max-width: 780px) {
+ @media screen and (min-width: 680px) and (max-width: 780px) {
     .lessons .col {
         width: 30%;
     }
@@ -79,7 +79,7 @@
 
 /* header for tablet */
 
-@media screen and (min-width: 780px) {
+@media screen and (max-width: 780px) {
    
     .site-header {
         justify-content: center;
@@ -90,3 +90,17 @@
 
     
 }
+
+
+/* _______________________ */
+
+/* STEPS SECTION */
+
+/* steps for mobile */
+
+/* @media screen and (max-width: 480px) {
+    .steps .col {
+        width: 100&;
+    }
+    
+} */
