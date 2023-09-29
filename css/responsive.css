@@ -1,27 +1,68 @@
-/* header */
-@media screen and (max-width: 480px) {
+
+/* LAYOUT  */
+
+/* container for mobile / tablet  */
+
+@media screen and (max-width: 480px) and (max-width: 780px){
+
     .container {
         width: 100%;
         margin: 0 auto;
         padding: 0 20px;
     }
-
     
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+}
+/* /container for mobile / tablet  */
+
+/* row for mobile  */
+
+@media screen and (max-width: 480px) {
+    .row {
+        display:block
+
+    }
+    
+}
+
+/* col for mobile */
+
+@media screen and (max-width: 480px) {
+
+    .lessons .col {
+        width: 100%;
+
+    }
+
+    .lessons .col img {
+        height: 100%;
+    }
+    
+}
+
+
+
+/* HEADER */
+
+/* header for mobile */
+@media screen and (max-width: 480px) {
+  
     .site-header {
         justify-content: center;
         
     }
-    .text-center {
-        align-content: center;
-    }
+
+
 }
 
+/* header for tablet */
+
 @media screen and (min-width: 780px) {
-    .container {
-        width: 780px;
-        margin: 0 auto;
-        padding: 0 20px;
-    }
+   
     .site-header {
         justify-content: center;
         
