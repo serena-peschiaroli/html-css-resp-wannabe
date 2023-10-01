@@ -33,6 +33,10 @@
 
     }
 
+    .steps {
+        margin: 0;
+    }
+
     .steps .col {
         width: 100%;
 
@@ -44,7 +48,10 @@
 
     .why-us {
         background-color: rgb(43, 42, 42);
+        margin-bottom: 0;
     } 
+
+    
     
 }
 
@@ -52,7 +59,7 @@
 /* TABLET  */
 
 
-@media only screen and (min-width: 600px) and (max-width: 780px) {
+@media only screen and (min-width: 600px) and (max-width: 768px) {
 
     .container {
         width: 100%;
@@ -74,7 +81,7 @@
 
 /* 768px e fino ai 1160px */
 
-@media only screen and (min-width: 780px) and (max-width: 1160px) {
+@media only screen and (min-width: 768px) and (max-width: 1160px) {
     .container {
         width: 100%;
         margin: 0 auto;
