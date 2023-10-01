@@ -72,3 +72,13 @@
 }
 
 
+/* 768px e fino ai 1160px */
+
+@media only screen and (min-width: 780px) and (max-width: 1160px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+
+    }
+}
