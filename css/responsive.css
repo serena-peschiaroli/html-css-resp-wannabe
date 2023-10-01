@@ -3,7 +3,7 @@
 
 /* container for mobile /  */
 
-@media only screen and (min-width: 325px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
 
     .container {
         width: 100%;
@@ -20,12 +20,28 @@
     .col {
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
+        
     }
 
     .lessons .col {
         width: 100%;
 
     }
+
+    .steps .col {
+        width: 100%;
+
+    }
+
+    .why-us .col {
+        width: 100%;
+    }
+
+    .why-us {
+        background-color: rgb(43, 42, 42);
+    }
+
+   
     
 }
 
