@@ -10,6 +10,11 @@
         margin: 0 auto;
         padding: 0 20px;
     }
+
+    .site-header {
+        justify-content: center;
+        
+    }
 /* row */
     .row {
         display:block
@@ -39,78 +44,31 @@
 
     .why-us {
         background-color: rgb(43, 42, 42);
-    }
-
-   
+    } 
     
 }
 
 
+/* TABLET  */
 
 
-
-@media screen and (min-width: 600px) and (max-width: 780px) {
+@media only screen and (min-width: 600px) and (max-width: 780px) {
 
     .container {
         width: 100%;
         margin: 0 auto;
         padding: 0 20px;
     }
-    
-}
-/* /container for mobile / tablet  */
 
- /* row for tablet  */
+    .site-header {
+        justify-content: center;
+        
+    }
 
- @media screen and (min-width: 680px) and (max-width: 780px) {
     .lessons .col {
-        width: 30%;
+        width: 50%;
     }
-
-    .lessons h2 {
-        width: 65%;
-    }
-
-
-    
- }
-
-
-/* header for mobile */
-@media screen and (max-width: 480px) {
-  
-    .site-header {
-        justify-content: center;
-        
-    }
-
 
 }
 
-/* header for tablet */
 
-@media screen and (max-width: 780px) {
-   
-    .site-header {
-        justify-content: center;
-        
-    }
-   
-
-
-    
-}
-
-
-/* _______________________ */
-
-/* STEPS SECTION */
-
-/* steps for mobile */
-
-/* @media screen and (max-width: 480px) {
-    .steps .col {
-        width: 100&;
-    }
-    
-} */
